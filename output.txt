@@ -1,0 +1,53 @@
+amberc@uw1-320-01:~/programs/skiplist$ ./a.out
+#faculty members: 10
+contents:
+-inf    -inf    -inf    -inf    -inf    -inf
+berger  berger  berger
+cioch
+erdly   erdly   erdly   erdly   erdly
+fukuda
+jackels
+olson   olson   olson
+stiber
+sung
+unknown unknown
+zander  zander
++inf    +inf    +inf    +inf    +inf    +inf
+
+deleting unknown
+#faculty members: 9
+contents:
+-inf    -inf    -inf    -inf    -inf    -inf
+berger  berger  berger
+cioch
+erdly   erdly   erdly   erdly   erdly
+fukuda
+jackels
+olson   olson   olson
+stiber
+sung
+zander  zander
++inf    +inf    +inf    +inf    +inf    +inf
+
+finding stiber = 1
+
+create another list
+finding stiber = 1
+#faculty members: 9
+
+cost of find = 104
+
+
+
+dlist's find cost = 6491439
+mtflist's find cost = 66448
+translist's find cost = 6422436
+skip's find cost = 2013580
+
+dlist's find cost = 6,491,439
+mtflist's find cost = 66,448
+translist's find cost = 6,422,436
+skip's find cost = 2,013,580
+
+I am surprised to discover that mtflist's find cost is so much less than all of the others.  My hypothesis ahead of time would have been that skiplist would have had the cheapest cost.  I am also surprised that 
+
